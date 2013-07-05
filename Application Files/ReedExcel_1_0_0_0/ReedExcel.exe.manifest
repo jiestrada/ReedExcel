@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ReedExcel.exe" version="1.0.0.0" publicKeyToken="9feb74330ddd01f1" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ReedExcel" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="ReedExcel.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el 
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la 
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ReedExcel.exe" size="41984">
+      <assemblyIdentity name="ReedExcel" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>iaBSZPF0BRMncuGHxo5LmHNqtLDp4HO7oCL4IvN/L+g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ReedExcel.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=PSIJESTRADA\jestrada" issuerKeyHash="d23eda324d2a9813a21b26c5e784b1975566d171" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>r5SDEW2v2esGpsYrspfEB/z5n8rcVjqkiEM6Qttes2Q=</DigestValue></Reference></SignedInfo><SignatureValue>SClqKciRtAs0M6Riwr0tgLz5PAV39aqSen+GNhG7iid7nxtAQEOfTzfpJCNWAcc8rUqJXU+J6e0P/4n/LZDQX9fKRAB7dG835V1CtKGgkDVHsIGRoRj0CmzKImGKmMI/ESqIgCgug4bgzdWs2TF+wTi4W7i3Nd2vg81Fs01S3l0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>llj3s5IuPa62RuQLI10a0BtoYN3ZjT6Lj5n/CWqszCRuxphhkFCupTvRHJHKuaYsyMv79c5ZwYPJOGshISl/5sfN+3M1xT+n7MyghkaLmA1+IBwRfa7aFnrEXFEiZ2ykWwdFQKDi9qJfOWrkQa2WO8yM2wjvc7ZO33rHdMK15Es=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="64b35edb423a4388a43a56dcca9ff9fc07c497b22bc6a606ebd9af6d118394af" Description="" Url=""><as:assemblyIdentity name="ReedExcel.exe" version="1.0.0.0" publicKeyToken="9feb74330ddd01f1" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PSIJESTRADA\jestrada</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>QjGVs2Uwqq/KpV8QMAM1L1gH/CgmQzzbgys72Bzqmfk=</DigestValue></Reference></SignedInfo><SignatureValue>FEgkNKFpAqNVWTpvHICL0NMAPubedO5K12bMEZce/4ck9UDfDNVZG9/5e55ITQeM9QgGcs0tKH6IAKJrjTN6pBVbEizU6hZYrBo8UME41moCmO0HDXRWDe2r2rYH/QkPFKyFCYkzJTNuLVuDGSQ70xVwN56xlj/2hRxH+Xb+cyw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>llj3s5IuPa62RuQLI10a0BtoYN3ZjT6Lj5n/CWqszCRuxphhkFCupTvRHJHKuaYsyMv79c5ZwYPJOGshISl/5sfN+3M1xT+n7MyghkaLmA1+IBwRfa7aFnrEXFEiZ2ykWwdFQKDi9qJfOWrkQa2WO8yM2wjvc7ZO33rHdMK15Es=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQT2iqXGOadLxMwhKsku3TXDANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigAUABTAEkASgBFAFMAVABSAEEARABBAFwAagBlAHMAdAByAGEAZABhMB4XDTEzMDYyMTE4MzY1MVoXDTE0MDYyMjAwMzY1MVowMzExMC8GA1UEAx4oAFAAUwBJAEoARQBTAFQAUgBBAEQAQQBcAGoAZQBzAHQAcgBhAGQAYTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAllj3s5IuPa62RuQLI10a0BtoYN3ZjT6Lj5n/CWqszCRuxphhkFCupTvRHJHKuaYsyMv79c5ZwYPJOGshISl/5sfN+3M1xT+n7MyghkaLmA1+IBwRfa7aFnrEXFEiZ2ykWwdFQKDi9qJfOWrkQa2WO8yM2wjvc7ZO33rHdMK15EsCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBqcLnEg0cMGcqur5+/UK9uh/SdE0nvp7G5uY77UV/3Doew5t/O3/OFyiW/pH+LwMtin0L/srsQjW4Cn2GDD8/1dGUOOkAv7wMd6f3UiEsjoZ4/VgAHtJydBdLg8Esz4abjTimkoZnwmhmzpa83VVHap2qKLF3LH5FdI9BwcHAOfg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
